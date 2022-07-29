@@ -4,4 +4,4 @@ const app = express();
 require('./src/Routes/index')(app);
 app.use(cors());
 app.use(express.json());
-app.listen(process.env.port||'8080');
+app.listen(process.env.PORT || 2000);
